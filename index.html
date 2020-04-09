@@ -56,10 +56,12 @@
           var xl2 = document.form.xl2.value;
           if(xl1 == "JVHAJGQD" && xl2 == "CHYDUVF0")
           {
-             top.location='jieguo_true.htm';
+              const w = window.open('about:self');
+              w.location.href = 'jieguo_true.htm';
           }
           else {
-              top.location='jieguo.asp.htm';
+              const k = window.open('about:self');
+              k.location.href = 'jieguo.asp.htm';
           }
           return false;
       }
